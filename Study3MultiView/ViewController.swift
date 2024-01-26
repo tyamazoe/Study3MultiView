@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func btnNext(_ sender: Any) {
+        performSegue(withIdentifier: "lev1seg", sender: nil)
+    }
+    
+    @IBAction func btnRead(_ sender: Any) {
+        performSegue(withIdentifier: "readseg", sender: nil)
+    }
 }
 
