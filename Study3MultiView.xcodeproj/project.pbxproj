@@ -48,7 +48,6 @@
 		871C33FD2B60A77C005B9AED = {
 			isa = PBXGroup;
 			children = (
-				874787C22B637B2600DFD2AD /* ReadViewController.swift */,
 				871C341D2B60A95A005B9AED /* README.md */,
 				871C34082B60A77C005B9AED /* Study3MultiView */,
 				871C34072B60A77C005B9AED /* Products */,
@@ -72,6 +71,7 @@
 				871C340F2B60A77C005B9AED /* Main.storyboard */,
 				874787BE2B637A1900DFD2AD /* Lev1ViewController.swift */,
 				874787C02B637A2D00DFD2AD /* Lev2ViewController.swift */,
+				874787C22B637B2600DFD2AD /* ReadViewController.swift */,
 				871C34122B60A77D005B9AED /* Assets.xcassets */,
 				871C34142B60A77D005B9AED /* LaunchScreen.storyboard */,
 				871C34172B60A77D005B9AED /* Info.plist */,

@@ -56,7 +56,7 @@
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="-34.632683658170919"/>
         </scene>
-        <!--Lev1 View Controller-->
+        <!--Level 1-->
         <scene sceneID="hXv-OX-Foo">
             <objects>
                 <viewController id="hyz-Gs-koq" customClass="Lev1ViewController" customModule="Study3MultiView" customModuleProvider="target" sceneMemberID="viewController">
@@ -84,7 +84,7 @@
                         <viewLayoutGuide key="safeArea" id="6tl-5i-z0c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="E5y-GO-HRM"/>
+                    <navigationItem key="navigationItem" title="Level 1" id="E5y-GO-HRM"/>
                     <connections>
                         <segue destination="VKh-o4-CI3" kind="show" identifier="lev2seg" id="iAf-9p-3vG"/>
                     </connections>
@@ -93,7 +93,7 @@
             </objects>
             <point key="canvasLocation" x="1702" y="-35"/>
         </scene>
-        <!--Read View Controller-->
+        <!--READ-->
         <scene sceneID="ZVF-IW-hQY">
             <objects>
                 <viewController id="VtE-ns-wiH" customClass="ReadViewController" customModule="Study3MultiView" customModuleProvider="target" sceneMemberID="viewController">
@@ -112,7 +112,7 @@
                         <viewLayoutGuide key="safeArea" id="z5G-QX-5QE"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zlU-Kd-rPv"/>
+                    <navigationItem key="navigationItem" title="READ" id="zlU-Kd-rPv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0a7-P7-CQY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

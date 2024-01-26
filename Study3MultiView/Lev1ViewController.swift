@@ -13,6 +13,9 @@ class Lev1ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // set next view "Level 2" back button, not this view
+        navigationItem.backBarButtonItem = UIBarButtonItem( title: "Back to 1", style: .plain, target: nil, action: nil)
     }
     
 

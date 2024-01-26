@@ -13,6 +13,10 @@ class Lev2ViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        // set navigation bar title and buck button
+        navigationItem.title = "LEVEL 2"
+        // backbutton title is set at previous view, Level 1.
     }
     
 
